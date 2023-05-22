@@ -1,2 +1,6 @@
 packages:.
-         ~/Desktop/nlambda
+
+source-repository-package
+    type: git
+    location: https://github.com/szynwelski/nlambda.git
+    tag: 8357a5f661180438ca6f08104b3f3395d157c0c2

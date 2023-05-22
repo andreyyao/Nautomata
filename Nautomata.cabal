@@ -19,9 +19,9 @@ maintainer:         awy32@cornell.edu
 -- A copyright notice.
 -- copyright:
 -- category:
-extra-source-files: CHANGELOG.md
+extra-source-files: README.md
 
-executable experiment
+executable Nautomata
     main-is:          Main.hs
 
     -- Modules included in this executable, other than Main.
@@ -29,7 +29,7 @@ executable experiment
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    base ^>=4.16.4.0, NLambda
+    build-depends:    base >=4.16.4.0 && <=5, NLambda >= 1.1
 
-    hs-source-dirs:   app
+    hs-source-dirs:   src
     default-language: Haskell2010
