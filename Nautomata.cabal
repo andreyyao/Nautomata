@@ -21,6 +21,8 @@ maintainer:         awy32@cornell.edu
 -- category:
 extra-source-files: README.md
 
+extra-doc-files: cabal.project
+
 executable Nautomata
     main-is:          Main.hs
 

@@ -3,13 +3,9 @@
 module Main where
 
 import NLambda
+import Prelude hiding (or, and, not, sum, map, filter, maybe)
 
--- Explicit Prelude, as NLambda has quite some clashes
-import GHC.Generics (Generic)
-import Prelude (Eq, Ord, Show, ($), IO, String, putStr, Int)
-import qualified Prelude ()
 
-type T = Nominal
 x = NLambda.alphabet
 
 main :: IO ()
