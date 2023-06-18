@@ -9,4 +9,4 @@ import Prelude hiding (or, and, not, sum, map, filter, maybe)
 x = NLambda.alphabet
 
 main :: IO ()
-main = putStr "Hehe"
+main = putStr "Hello World"
