@@ -36,6 +36,8 @@ library Reduction
     exposed-modules:
                       Reduction
                       Coalgebra
+                      Deterministic
+                      Nondeterministic
 
 
 executable Nautomata
